@@ -1,0 +1,87 @@
+html {
+  background: url(MtHood.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 10px;
+  padding: 0;
+  border: 0;
+}
+
+header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    text-align: center;
+    background-color: lightblue;
+    padding: 2px;
+    border: 1.5px solid black;
+}
+
+#theContent {
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#currentWeather {
+    margin-left: 100px;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1.5px solid black;
+    /* padding: 10px; */
+    width: 79%;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.topRibbon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#extendedForecast {
+    display: none;
+    font-weight: bold;
+}
+
+#extendedForecastCard1,#extendedForecastCard2,#extendedForecastCard3,#extendedForecastCard4,#extendedForecastCard5 {
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;    
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 10px;
+    float: left;
+    width: 18%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    #extendedForecastCard1,#extendedForecastCard2,#extendedForecastCard3,#extendedForecastCard4,#extendedForecastCard5 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #currentWeather {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+}
+
+
+
