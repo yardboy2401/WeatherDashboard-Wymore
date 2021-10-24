@@ -81,6 +81,11 @@ img {
     border-radius: 10px;
 }
 
+/* styling for mouse hover on search history cities */
+.searchedCities:hover {
+    color: white;
+}
+
 /* media screen selectors to make sure display is good on different screen sizes */
 @media screen and (max-width: 1000px) {
     #extendedForecastCard1,#extendedForecastCard2,#extendedForecastCard3,#extendedForecastCard4,#extendedForecastCard5 {

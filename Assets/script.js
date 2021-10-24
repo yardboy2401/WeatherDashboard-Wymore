@@ -12,12 +12,6 @@ $(document).ready(function () {
   let searchHistoryEl = $("#searchHistory");
   let searchHistoryListEl = $("#searchHistoryList");
 
-    //get local storage city data
-  function getLocalStorageCities() {
-    let searchedCities =
-      JSON.parse(localStorage.getItem("searchedCities")) || [];
-    return searchedCities || [];
-  }
   //clears previous forecast data if present
   function clearWeatherData() {
     $("#weatherIconData").empty();
@@ -164,15 +158,12 @@ $(document).ready(function () {
     extendedForecastEl.css("display", "block");
     currentWeatherEl.empty();
     let curQuery = locRequestUrl + userQueryEl.val() + "&appid=" + apiKey;
-    console.log(curQuery);
     let searchedCities = getLocalStorageCities();
-    console.log(getLocalStorageCities());
     if (
       !searchedCities ||
       !searchedCities.find((m) => m === userQueryEl.val().toLowerCase())
     ) {
       searchedCities.push(userQueryEl.val().toLowerCase());
-      console.log(userQueryEl.val());
       localStorage.setItem("searchedCities", JSON.stringify(searchedCities));
       searchHistoryListEl.append(
         $("<li class='searchedCities'>").text(userQueryEl.val().toLowerCase())
