@@ -13,19 +13,21 @@ body {
 }
 
 header {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 32px;
     text-align: center;
-    background-color: lightblue;
+    background-color: yellow;
     padding: 2px;
     border: 1.5px solid black;
 }
 
 #theContent {
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    margin-right: 15px;
     padding: 5px;
     font-size: 20px;
     font-weight: bolder;
+    /* border: 1.5px solid black; */
 }
 
 #currentWeather {
