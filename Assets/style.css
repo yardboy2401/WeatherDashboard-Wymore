@@ -1,3 +1,4 @@
+/* setting background image */
 html {
   background: url(mthood.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -5,13 +6,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
+/* body styling */
 body {
   margin: 10px;
   padding: 0;
   border: 0;
 }
-
+/* header styling */
 header {
     font-family: 'Titillium Web', sans-serif;
     font-size: 32px;
@@ -21,17 +22,23 @@ header {
     border: 1.5px solid black;
 }
 
+/* Search area and search history styling */
 #theContent {
-    /* margin-left: 15px; */
+    font-family: 'Irish Grover', cursive;
     margin-right: 15px;
     padding: 5px;
     font-size: 20px;
     font-weight: bolder;
-    /* border: 1.5px solid black; */
 }
 
+#searchHistory {
+    font-family: 'Irish Grover', cursive;
+}
+
+/* Current weather element styling */
 #currentWeather {
     margin-left: 100px;
+    font-family: 'Irish Grover', cursive;
     display: none;
     flex-direction: column;
     flex-wrap: wrap;
@@ -41,24 +48,29 @@ header {
     border-radius: 10px;
 }
 
+/* setting weather image width/height */
 img {
     width: 100px;
     height: 100px;
 }
 
+/* top ribbon styling */
 .topRibbon {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
+/* extended forecast styling */
 #extendedForecast {
     display: none;
     font-weight: bold;
+    font-family: 'Irish Grover', cursive;
 }
 
+/* extended forecast cards styling */
 #extendedForecastCard1,#extendedForecastCard2,#extendedForecastCard3,#extendedForecastCard4,#extendedForecastCard5 {
-    /* display: flex; */
+    font-family: 'Irish Grover', cursive;
     flex-direction: row;
     flex-wrap: wrap;    
     border-style: solid;
@@ -69,6 +81,7 @@ img {
     border-radius: 10px;
 }
 
+/* media screen selectors to make sure display is good on different screen sizes */
 @media screen and (max-width: 1000px) {
     #extendedForecastCard1,#extendedForecastCard2,#extendedForecastCard3,#extendedForecastCard4,#extendedForecastCard5 {
         display: flex;
