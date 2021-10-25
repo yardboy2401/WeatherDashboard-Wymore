@@ -1,4 +1,4 @@
-# Week 06 Server-Side APIs: Weather Dashboard
+# Week 06 Homework Server-Side APIs: Weather Dashboard
 
 ## Your Task
 
@@ -6,83 +6,33 @@ Use a 3rd party weather API to retrieve current and forecast weather data. Your 
 
 Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Read through the documentation for setup and usage instructions. You will use `localStorage` to store any persistent data. For more information on how to work with the OpenWeather API, refer to the [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).
 
-## User Story
+## Languages Used
+- JS/jQuery
+- HTML
+- CSS
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+## Link to GitHub main project
+https://github.com/yardboy2401/week6-homework-wymore
 
-## Acceptance Criteria
+## Link to deployed application
+https://yardboy2401.github.io/week6-homework-wymore/
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
+## Screenshots of finished product
+### On initial page load
+![image](https://user-images.githubusercontent.com/85953688/138785517-e7dc1706-c4b6-46d5-a3ef-c194022e61b6.png)
+### After searching a city
+![image](https://user-images.githubusercontent.com/85953688/138785566-3324c9d2-5274-4dbc-96b1-00b6bc21f78c.png)
+### Showing local storage after city search
+![image](https://user-images.githubusercontent.com/85953688/138785620-46b5bf9b-d91e-4585-bc30-6ec5c1fedebc.png)
 
-## Mock-Up
+## Project Notes
+When searching for a city, added logic to make it lowercase and also logic so you won't have duplicate city searches in the search history list. Population of local storage to the page upon initial load is working. Ran out of time unfortunately to add a delete search history button. Will try to get that updated and added soon. I don't think it was a requirement for the project, just something I noticed last minute.
 
-The following image shows the web application's appearance and functionality:
+## Contact Information
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+Github: https://github.com/yardboy2401
 
-## Grading Requirements
+Email: yardboy2401@gmail.com
 
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-    * Uses the OpenWeather API to retrieve weather data.
-
-    * Uses `localStorage` to store persistent data.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
+- - - -
 
