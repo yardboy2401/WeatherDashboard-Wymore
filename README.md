@@ -1,4 +1,4 @@
-# Week 06 Homework Server-Side APIs: Weather Dashboard
+# Weather Dashboard-Wymore
 
 ## Your Task
 
