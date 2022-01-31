@@ -12,10 +12,10 @@ Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) 
 - CSS
 
 ## Link to GitHub main project
-https://github.com/yardboy2401/week6-homework-wymore
+https://github.com/yardboy2401/WeatherDashboard-Wymore
 
 ## Link to deployed application
-https://yardboy2401.github.io/week6-homework-wymore/
+https://yardboy2401.github.io/WeatherDashboard-Wymore/
 
 ## Screenshots of finished product
 ### On initial page load
